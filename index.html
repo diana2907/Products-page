@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/public/styles.css" />
+    <title>VooDoo Test</title>
+  </head>
+  <body class="text-sm font-main bg-main text-mainText">
+    <div class="max-w-screen-xl m-auto">
+      <header class="py-6 border-b border-solid">
+        <div class="flex justify-between items-center px-4">
+          <div class="flex">
+            <svg class="mr-1" width="23" height="23">
+              <use href="./src/images/symbol-defs.svg#icon-Logomark"></use>
+            </svg>
+            <svg width="94" height="48">
+              <use href="./src/images/symbol-defs.svg#icon-Logotype"></use>
+            </svg>
+          </div>
+          <div class="flex items-center">
+            <nav class="mr-4">
+              <a class="leading-main font-semibold" href="#">About us</a>
+            </nav>
+            <button
+              class="px-3 py-2 bg-button font-bold text-secondaryText rounded"
+              type="button"
+            >
+              Sign up
+            </button>
+          </div>
+        </div>
+      </header>
+
+      <main>
+        <section class="py-6">
+          <div class="px-4">
+            <div
+              class="w-full flex items-center justify-between p-4 bg-button rounded"
+            >
+              <div class="flex items-center">
+                <svg class="mr-1.5" width="21" height="21">
+                  <use
+                    href="./src/images/symbol-defs.svg#icon-alert-circle"
+                  ></use>
+                </svg>
+                <p class="mr-6 text-lightColor font-bold text-base">ALPHA</p>
+                <p class="text-lightColor font-medium">Important info</p>
+              </div>
+              <button>
+                <svg width="12" height="6">
+                  <use href="./src/images/symbol-defs.svg#icon-Vector"></use>
+                </svg>
+              </button>
+            </div>
+          </div>
+        </section>
+        <section class="pt-6 pb-12 xl:pb-24">
+          <div class="px-4">
+            <ul
+              class="products-list grid gap-12 grid-cols-1 min-[480px]:grid-cols-2 md:grid-cols-3 xl:grid-cols-4"
+            ></ul>
+          </div>
+        </section>
+
+        <section class="pt-12 pb-32">
+          <div class="px-4 grid place-content-center">
+            <p class="mb-6">
+              Be the first one to know when we launch our beta!
+            </p>
+            <form class="flex">
+              <input
+                class="p-4 font-mainText font-semibold rounded max-w-129.5 mr-3"
+                placeholder="E-mail"
+                type="email"
+              />
+              <button class="p-4 bg-accent font-semibold rounded" type="button">
+                Sign-up
+              </button>
+            </form>
+          </div>
+        </section>
+
+        <footer class="bg-footer pt-12 pb-16">
+          <div class="px-4">
+            <div class="flex flex-col space-y-12 font-footer mb-12">
+              <ul>
+                <li>FAQ</li>
+                <li>RETURNS</li>
+                <li>CONTACT</li>
+              </ul>
+              <ul>
+                <li>TERMS & CONDITIONS</li>
+                <li>PRIVACY POLICY</li>
+                <li>COOKIE POLICY</li>
+                <li>COOKIE SETTINGS</li>
+              </ul>
+              <ul>
+                <li>ABOUT VOODOO</li>
+                <li>CAREER</li>
+                <li>FACEBOOK</li>
+                <li>INSTAGRAM</li>
+              </ul>
+            </div>
+            <svg class="mx-auto" width="80" height="80">
+              <use href="./src/images/symbol-defs.svg#icon-Logomark"></use>
+            </svg>
+          </div>
+        </footer>
+      </main>
+    </div>
+    <script src="./src/js/fetch.js"></script>
+  </body>
+</html>
