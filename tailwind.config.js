@@ -1,6 +1,6 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: ["./index.html"],
+  content: ["./index.html", "./src/js/fetch.js", "./src/js/toggleSlide.js"],
   theme: {
     fontFamily: {
       main: ["Space Grotesk"],
@@ -17,9 +17,11 @@ module.exports = {
       mainText: "#000000",
       secondaryText: "#FFFFFF",
       lightColor: "#FCF7E6",
+      hoverColor: "#5a1b1b",
     },
     lineHeight: {
-      main: "1.29",
+      main: "1.3",
+      footer: "1.5",
     },
   },
 
